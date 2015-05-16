@@ -46,3 +46,6 @@ class AllRecipes(RecipeScraper):
         if find.__class__.__name__ != "NoneType":
             return " " + find.get_text().encode("ascii")
         return ""
+    def get_ratings(self):
+        return self.soup.find("div", {"class": "reviewsWrapper"}).find("p",{"id":"pRatings"}).string.split(" ")[0]
+

@@ -88,10 +88,8 @@ class RecipeScraper():
 
     def write(self, to_file=False, directory=""):
         if to_file:
-            directory = os.path.expanduser(directory)
-
-            fileName = os.path.join(directory, self.title() + ".md")
-
+            directory = os.getcwd()
+            fileName = os.path.join(directory, self.title() + ".txt")
             saveout = sys.stdout
             fsock = open(fileName, 'w+')
             sys.stdout = fsock
@@ -104,6 +102,8 @@ class RecipeScraper():
         print
 
         print "* Servings:", self.num_servings()
+        
+        print "* Reviews",self.get_ratings()
 
         if self.prep_time() != "":
             print "* Prep Time:", self.prep_time()
