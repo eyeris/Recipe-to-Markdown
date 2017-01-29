@@ -106,40 +106,41 @@ Output the recipe as a JSON format file using ```s.json_write()``` method.
 When using ```.json_write()``` method, ingredients, directions and nutriens information are also written isside a sub JSON document.
 
 
-
->>{
->>   "nutrition":{
->>      "fiber":"5.7",
->>      "sodium":"960",
->>      "carbohydrates":"45",
->>      "calories":"559",
->>      "fat":"31.7",
->>      "cholesterol":"44",
->>      "protein":"22.5"
->>   },
->>   "ingredients":{
->>      "0":"2 1/2 cups all-purpose flour",
->>      "1":"1/2 teaspoon salt",
->>      "2":"1 cup chilled solid vegetable shortening",
->>      "3":"6 tablespoons ice water, or as needed",
->>      "4":"3 cups cubed cooked turkey",
->>      "5":"1/2 small onion, chopped",
->>      "6":"1 (10.75 ounce) can cream of potato soup",
->>      "7":"1 (10.75 ounce) can cream of chicken soup",
->>      "8":"1/2 (10.75 ounce) can water",
->>      "9":"2 (15 ounce) cans mixed vegetables, drained",
->>      "10":"salt and pepper to taste"
->>   },
->>   "url":"http://allrecipes.com/recipe/grandmas-leftover-turkey-pot-pie/detail.aspx",
->>   "title":"Grandma's Leftover Turkey Pot Pie Recipe",
->>   "reviews":"22",
->>   "time":" 1 hr 45 mins",
->>   "directions":{
->>      "0":"Whisk together the flour and 1/2 teaspoon of salt in a bowl..,
->>      "1":"Preheat oven to 375 degrees F (190 degrees C)...",
->>      "2":"In a saucepan, mix together the turkey, onion, cream of potato soup..,
->>      "3":"Cut the dough in almost equal halves. 
->>      "4":"Bake in the preheated oven until the crust is golden brown, about 45 minutes..."
->>   },
->>   "author_id":"1969657"
->>}
+```json
+{
+   "nutrition":{
+      "fiber":"5.7",
+      "sodium":"960",
+      "carbohydrates":"45",
+      "calories":"559",
+      "fat":"31.7",
+      "cholesterol":"44",
+      "protein":"22.5"
+   },
+   "ingredients":{
+      "0":"2 1/2 cups all-purpose flour",
+      "1":"1/2 teaspoon salt",
+      "2":"1 cup chilled solid vegetable shortening",
+      "3":"6 tablespoons ice water, or as needed",
+      "4":"3 cups cubed cooked turkey",
+      "5":"1/2 small onion, chopped",
+      "6":"1 (10.75 ounce) can cream of potato soup",
+      "7":"1 (10.75 ounce) can cream of chicken soup",
+      "8":"1/2 (10.75 ounce) can water",
+      "9":"2 (15 ounce) cans mixed vegetables, drained",
+      "10":"salt and pepper to taste"
+   },
+   "url":"http://allrecipes.com/recipe/grandmas-leftover-turkey-pot-pie/detail.aspx",
+   "title":"Grandma's Leftover Turkey Pot Pie Recipe",
+   "reviews":"22",
+   "time":" 1 hr 45 mins",
+   "directions":{
+      "0":"Whisk together the flour and 1/2 teaspoon of salt in a bowl..,
+      "1":"Preheat oven to 375 degrees F (190 degrees C)...",
+      "2":"In a saucepan, mix together the turkey, onion, cream of potato soup..,
+      "3":"Cut the dough in almost equal halves. 
+      "4":"Bake in the preheated oven until the crust is golden brown, about 45 minutes..."
+   },
+   "author_id":"1969657"
+}
+```
