@@ -147,7 +147,7 @@ When using ```.json_write()``` method, ingredients, directions and nutriens info
 
 # Data Set and update on the code
 
-I have modified the code to support fetchig more information from allrecipes.com and save using JSON format. JSON format is flexible and this can be easily exported to NoSQL database like MongoDB. However, shortafter, alrecipes.com changed their website layout so that the code woudnt work. Therefore, I am releasing the raw data set. This is 26 790 recipes. Actual number of reviews may be different than the number in the recipe as I have collected data in 2015. 
+I have modified the code to support fetchig more information from allrecipes.com and save using JSON format. JSON format is flexible and this can be easily exported to NoSQL database like MongoDB. However, shortly after, alrecipes.com changed their website layout so that the code woudn't work. Therefore, I am releasing the raw data set. This is 26 790 recipes. Actual number of reviews may be different than the number in the recipe as I have collected data in 2015. 
 
 The URL is still working. Nutrient information is per serving. Please refer to the URL for units of measurements for the nutrients. Most of the times, following units of measurements are used
 
@@ -160,7 +160,7 @@ The URL is still working. Nutrient information is per serving. Please refer to t
 
 # Publications 
 
-This dataset is downloaded for my thesis and some publications related to this work can be mentioned as follows (but they use different dataset). Since this is unprocessed raw dataset, NLP and ML based reserch canuse this. 
+This dataset is downloaded for my thesis and some publications related to this work can be mentioned as follows (but they use different dataset). Since this is unprocessed raw dataset, NLP and ML based reserch can use this. 
 
 I. Nirmal, A. Caldera, and R. D. Bandara, “Optimization Framework for Flavour and Nutrition Balanced Recipe: A Data Driven Approach,” 2018 5th IEEE Uttar Pradesh Section International Conference on Electrical, Electronics and Computer Engineering (UPCON), 2018.
 
